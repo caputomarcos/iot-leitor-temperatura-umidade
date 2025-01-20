@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "SensorWorker",
+            "request": "launch",
+            "mainClass": "com.leitor.SensorWorker",
+            "projectName": "leitor-temperatura",
+            "vmArgs": "-javaagent:${userHome}/.appmap/lib/java/appmap.jar --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --illegal-access=warn "
+
+        },
+        {
+            "type": "java",
+            "name": "Run with AppMap",
+            "request": "launch",
+            "mainClass": "com.leitor.SensorWorker",
+            "vmArgs": "-javaagent:/home/code/.appmap/lib/java/appmap.jar"
+        }
+    ]
+}

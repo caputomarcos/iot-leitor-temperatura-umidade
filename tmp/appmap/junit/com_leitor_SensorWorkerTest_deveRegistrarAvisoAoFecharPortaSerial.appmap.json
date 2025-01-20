@@ -1,0 +1,116 @@
+{
+  "events": [
+    {
+      "defined_class": "com.leitor.SensorWorkerTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 200,
+      "method_id": "deveRegistrarAvisoAoFecharPortaSerial",
+      "path": "com/leitor/SensorWorkerTest.java",
+      "receiver": {
+        "class": "com.leitor.SensorWorkerTest",
+        "object_id": 645621647,
+        "value": "com.leitor.SensorWorkerTest@267b678f"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.leitor.SensorWorker",
+      "event": "call",
+      "id": 2,
+      "lineno": 136,
+      "method_id": "pararLeitura",
+      "path": "com/leitor/SensorWorker.java",
+      "receiver": {
+        "class": "com.leitor.SensorWorker",
+        "object_id": 484968522,
+        "value": "com.leitor.SensorWorker@1ce8084a"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000868319,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0001262929,
+      "event": "return",
+      "id": 4,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Sensor worker deve registrar aviso ao fechar porta serial",
+    "app": "leitor-temperatura",
+    "language": {
+      "name": "java",
+      "version": "17.0.13+11-LTS",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.leitor.SensorWorkerTest",
+      "method_id": "deveRegistrarAvisoAoFecharPortaSerial"
+    },
+    "source_location": "com/leitor/SensorWorkerTest.java:200",
+    "frameworks": [
+      {
+        "name": "junit",
+        "version": "4"
+      }
+    ],
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "name": "deveRegistrarAvisoAoFecharPortaSerial",
+                  "type": "function",
+                  "static": false,
+                  "location": "com/leitor/SensorWorkerTest.java:200"
+                }
+              ],
+              "name": "SensorWorkerTest",
+              "type": "class"
+            },
+            {
+              "children": [
+                {
+                  "name": "pararLeitura",
+                  "type": "function",
+                  "static": false,
+                  "location": "com/leitor/SensorWorker.java:136"
+                }
+              ],
+              "name": "SensorWorker",
+              "type": "class"
+            }
+          ],
+          "name": "leitor",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    }
+  ]
+}

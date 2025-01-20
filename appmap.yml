@@ -1,0 +1,6 @@
+name: "leitor-temperatura"
+language: java
+appmap_dir: tmp/appmap
+packages:
+  - path: com.leitor.SensorWorker
+  - path: com.leitor.RunCucumberTest

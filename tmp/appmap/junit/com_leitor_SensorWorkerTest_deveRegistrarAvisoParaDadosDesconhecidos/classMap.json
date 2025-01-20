@@ -1,0 +1,38 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "name": "deveRegistrarAvisoParaDadosDesconhecidos",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorkerTest.java:182"
+              }
+            ],
+            "name": "SensorWorkerTest",
+            "type": "class"
+          },
+          {
+            "children": [
+              {
+                "name": "processarDados",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorker.java:161"
+              }
+            ],
+            "name": "SensorWorker",
+            "type": "class"
+          }
+        ],
+        "name": "leitor",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

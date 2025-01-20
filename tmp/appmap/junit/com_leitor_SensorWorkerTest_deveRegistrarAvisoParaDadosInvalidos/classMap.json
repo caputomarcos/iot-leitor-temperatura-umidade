@@ -1,0 +1,56 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "name": "deveRegistrarAvisoParaDadosInvalidos",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorkerTest.java:70"
+              }
+            ],
+            "name": "SensorWorkerTest",
+            "type": "class"
+          },
+          {
+            "children": [
+              {
+                "name": "iniciarLeitura",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorker.java:101"
+              },
+              {
+                "name": "processarDados",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorker.java:161"
+              }
+            ],
+            "name": "SensorWorker",
+            "type": "class"
+          },
+          {
+            "children": [
+              {
+                "name": "serialEvent",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorker.java:115"
+              }
+            ],
+            "name": "SensorWorker$1",
+            "type": "class"
+          }
+        ],
+        "name": "leitor",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

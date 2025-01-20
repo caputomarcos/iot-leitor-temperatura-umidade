@@ -1,0 +1,44 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "name": "deveProcessarDadosValidosDeTemperaturaEUmidade",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorkerTest.java:164"
+              }
+            ],
+            "name": "SensorWorkerTest",
+            "type": "class"
+          },
+          {
+            "children": [
+              {
+                "name": "processarDados",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorker.java:161"
+              },
+              {
+                "name": "publicarNoMQTT",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorker.java:190"
+              }
+            ],
+            "name": "SensorWorker",
+            "type": "class"
+          }
+        ],
+        "name": "leitor",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

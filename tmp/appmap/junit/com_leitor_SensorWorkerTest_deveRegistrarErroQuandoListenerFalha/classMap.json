@@ -1,0 +1,26 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "name": "deveRegistrarErroQuandoListenerFalha",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorkerTest.java:228"
+              }
+            ],
+            "name": "SensorWorkerTest",
+            "type": "class"
+          }
+        ],
+        "name": "leitor",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

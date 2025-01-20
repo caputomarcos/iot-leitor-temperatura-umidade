@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.leitor.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.872 s -- in com.leitor.RunCucumberTest

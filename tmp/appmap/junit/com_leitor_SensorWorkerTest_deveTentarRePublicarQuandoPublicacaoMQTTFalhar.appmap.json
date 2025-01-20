@@ -1,0 +1,132 @@
+{
+  "events": [
+    {
+      "defined_class": "com.leitor.SensorWorkerTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 150,
+      "method_id": "deveTentarRePublicarQuandoPublicacaoMQTTFalhar",
+      "path": "com/leitor/SensorWorkerTest.java",
+      "receiver": {
+        "class": "com.leitor.SensorWorkerTest",
+        "object_id": 270071554,
+        "value": "com.leitor.SensorWorkerTest@1018f702"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.leitor.SensorWorker",
+      "event": "call",
+      "id": 2,
+      "lineno": 190,
+      "method_id": "publicarNoMQTT",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "topico",
+          "object_id": 1001702066,
+          "value": "sensores/temperatura"
+        },
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "mensagem",
+          "object_id": 1995366577,
+          "value": "30.0"
+        }
+      ],
+      "path": "com/leitor/SensorWorker.java",
+      "receiver": {
+        "class": "com.leitor.SensorWorker",
+        "object_id": 555334025,
+        "value": "com.leitor.SensorWorker@2119b989"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.050105613,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.05016592,
+      "event": "return",
+      "id": 4,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Sensor worker deve tentar re publicar quando publicacao MQTT falhar",
+    "app": "leitor-temperatura",
+    "language": {
+      "name": "java",
+      "version": "17.0.13+11-LTS",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.leitor.SensorWorkerTest",
+      "method_id": "deveTentarRePublicarQuandoPublicacaoMQTTFalhar"
+    },
+    "source_location": "com/leitor/SensorWorkerTest.java:150",
+    "frameworks": [
+      {
+        "name": "junit",
+        "version": "4"
+      }
+    ],
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "name": "deveTentarRePublicarQuandoPublicacaoMQTTFalhar",
+                  "type": "function",
+                  "static": false,
+                  "location": "com/leitor/SensorWorkerTest.java:150"
+                }
+              ],
+              "name": "SensorWorkerTest",
+              "type": "class"
+            },
+            {
+              "children": [
+                {
+                  "name": "publicarNoMQTT",
+                  "type": "function",
+                  "static": false,
+                  "location": "com/leitor/SensorWorker.java:190"
+                }
+              ],
+              "name": "SensorWorker",
+              "type": "class"
+            }
+          ],
+          "name": "leitor",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    }
+  ]
+}

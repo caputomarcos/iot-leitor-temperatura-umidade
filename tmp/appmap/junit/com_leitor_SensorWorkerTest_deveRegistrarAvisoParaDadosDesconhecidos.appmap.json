@@ -1,0 +1,125 @@
+{
+  "events": [
+    {
+      "defined_class": "com.leitor.SensorWorkerTest",
+      "event": "call",
+      "id": 1,
+      "lineno": 182,
+      "method_id": "deveRegistrarAvisoParaDadosDesconhecidos",
+      "path": "com/leitor/SensorWorkerTest.java",
+      "receiver": {
+        "class": "com.leitor.SensorWorkerTest",
+        "object_id": 631436338,
+        "value": "com.leitor.SensorWorkerTest@25a2f432"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "defined_class": "com.leitor.SensorWorker",
+      "event": "call",
+      "id": 2,
+      "lineno": 161,
+      "method_id": "processarDados",
+      "parameters": [
+        {
+          "class": "java.lang.String",
+          "kind": "req",
+          "name": "dados",
+          "object_id": 116901088,
+          "value": "UNKNOWN:123"
+        }
+      ],
+      "path": "com/leitor/SensorWorker.java",
+      "receiver": {
+        "class": "com.leitor.SensorWorker",
+        "object_id": 635569126,
+        "value": "com.leitor.SensorWorker@25e203e6"
+      },
+      "static": false,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0000347104,
+      "event": "return",
+      "id": 3,
+      "parent_id": 2,
+      "thread_id": 1
+    },
+    {
+      "elapsed": 0.0001041891,
+      "event": "return",
+      "id": 4,
+      "parent_id": 1,
+      "thread_id": 1
+    }
+  ],
+  "version": "1.2",
+  "metadata": {
+    "name": "Sensor worker deve registrar aviso para dados desconhecidos",
+    "app": "leitor-temperatura",
+    "language": {
+      "name": "java",
+      "version": "17.0.13+11-LTS",
+      "engine": "OpenJDK 64-Bit Server VM"
+    },
+    "client": {
+      "name": "appmap-java",
+      "url": "https://github.com/appland/appmap-java"
+    },
+    "recorder": {
+      "name": "junit",
+      "type": "tests"
+    },
+    "recording": {
+      "defined_class": "com.leitor.SensorWorkerTest",
+      "method_id": "deveRegistrarAvisoParaDadosDesconhecidos"
+    },
+    "source_location": "com/leitor/SensorWorkerTest.java:182",
+    "frameworks": [
+      {
+        "name": "junit",
+        "version": "4"
+      }
+    ],
+    "test_status": "succeeded"
+  },
+  "classMap": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "name": "deveRegistrarAvisoParaDadosDesconhecidos",
+                  "type": "function",
+                  "static": false,
+                  "location": "com/leitor/SensorWorkerTest.java:182"
+                }
+              ],
+              "name": "SensorWorkerTest",
+              "type": "class"
+            },
+            {
+              "children": [
+                {
+                  "name": "processarDados",
+                  "type": "function",
+                  "static": false,
+                  "location": "com/leitor/SensorWorker.java:161"
+                }
+              ],
+              "name": "SensorWorker",
+              "type": "class"
+            }
+          ],
+          "name": "leitor",
+          "type": "package"
+        }
+      ],
+      "name": "com",
+      "type": "package"
+    }
+  ]
+}

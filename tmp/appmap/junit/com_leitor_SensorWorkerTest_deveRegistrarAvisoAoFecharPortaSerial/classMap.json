@@ -1,0 +1,38 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "name": "deveRegistrarAvisoAoFecharPortaSerial",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorkerTest.java:200"
+              }
+            ],
+            "name": "SensorWorkerTest",
+            "type": "class"
+          },
+          {
+            "children": [
+              {
+                "name": "pararLeitura",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorker.java:136"
+              }
+            ],
+            "name": "SensorWorker",
+            "type": "class"
+          }
+        ],
+        "name": "leitor",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]

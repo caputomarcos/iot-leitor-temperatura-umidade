@@ -1,0 +1,38 @@
+[
+  {
+    "children": [
+      {
+        "children": [
+          {
+            "children": [
+              {
+                "name": "deveRegistrarErroAoAbrirPortaSerial",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorkerTest.java:128"
+              }
+            ],
+            "name": "SensorWorkerTest",
+            "type": "class"
+          },
+          {
+            "children": [
+              {
+                "name": "iniciarLeitura",
+                "type": "function",
+                "static": false,
+                "location": "com/leitor/SensorWorker.java:101"
+              }
+            ],
+            "name": "SensorWorker",
+            "type": "class"
+          }
+        ],
+        "name": "leitor",
+        "type": "package"
+      }
+    ],
+    "name": "com",
+    "type": "package"
+  }
+]
