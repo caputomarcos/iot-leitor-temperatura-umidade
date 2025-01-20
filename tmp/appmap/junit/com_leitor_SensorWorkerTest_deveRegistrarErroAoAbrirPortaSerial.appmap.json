@@ -9,8 +9,8 @@
       "path": "src/test/java/com/leitor/SensorWorkerTest.java",
       "receiver": {
         "class": "com.leitor.SensorWorkerTest",
-        "object_id": 2129236490,
-        "value": "com.leitor.SensorWorkerTest@7ee9920a"
+        "object_id": 2121893816,
+        "value": "com.leitor.SensorWorkerTest@7e7987b8"
       },
       "static": false,
       "thread_id": 1
@@ -24,21 +24,21 @@
       "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker",
-        "object_id": 711355534,
-        "value": "com.leitor.SensorWorker@2a666c8e"
+        "object_id": 77567832,
+        "value": "com.leitor.SensorWorker@49f9758"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0000604738,
+      "elapsed": 0.0000532454,
       "event": "return",
       "id": 3,
       "parent_id": 2,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0001044336,
+      "elapsed": 0.000091599,
       "event": "return",
       "id": 4,
       "parent_id": 1,
@@ -69,7 +69,7 @@
     "git": {
       "repository": "git@github.com:caputomarcos/iot-leitor-temperatura-umidade.git",
       "branch": "main",
-      "commit": "62247eae3ca93dc4fb398efaccc628b5f906d4a5"
+      "commit": "3468237cc52b6f9360e900d0aad02801ab152145"
     },
     "source_location": "src/test/java/com/leitor/SensorWorkerTest.java:128",
     "frameworks": [

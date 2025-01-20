@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.leitor.RunCucumberTest" time="9.619" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.leitor.RunCucumberTest" time="9.812" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/home/code/.sdkman/candidates/java/17.0.13-zulu/lib"/>
-    <property name="sun.java.command" value="/home/code/Projetos/iot-leitor-temperatura-umidade/target/surefire/surefirebooter-20250120054331665_3.jar /home/code/Projetos/iot-leitor-temperatura-umidade/target/surefire 2025-01-20T05-43-31_615-jvmRun1 surefire-20250120054331665_1tmp surefire_0-20250120054331665_2tmp"/>
+    <property name="sun.java.command" value="/home/code/Projetos/iot-leitor-temperatura-umidade/target/surefire/surefirebooter-20250120060414626_3.jar /home/code/Projetos/iot-leitor-temperatura-umidade/target/surefire 2025-01-20T06-04-14_565-jvmRun1 surefire-20250120060414626_1tmp surefire_0-20250120060414626_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/code/Projetos/iot-leitor-temperatura-umidade/target/test-classes:/home/code/Projetos/iot-leitor-temperatura-umidade/target/classes:/home/code/.m2/repository/com/fazecast/jSerialComm/2.11.0/jSerialComm-2.11.0.jar:/home/code/.m2/repository/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.jar:/home/code/.m2/repository/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.jar:/home/code/.m2/repository/io/vavr/vavr/0.10.5/vavr-0.10.5.jar:/home/code/.m2/repository/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.5/org.eclipse.paho.client.mqttv3-1.2.5.jar:/home/code/.m2/repository/org/mockito/mockito-core/5.15.2/mockito-core-5.15.2.jar:/home/code/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/home/code/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar:/home/code/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/code/.m2/repository/io/cucumber/cucumber-java/7.20.1/cucumber-java-7.20.1.jar:/home/code/.m2/repository/io/cucumber/cucumber-core/7.20.1/cucumber-core-7.20.1.jar:/home/code/.m2/repository/io/cucumber/cucumber-gherkin/7.20.1/cucumber-gherkin-7.20.1.jar:/home/code/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.20.1/cucumber-gherkin-messages-7.20.1.jar:/home/code/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/code/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/home/code/.m2/repository/io/cucumber/testng-xml-formatter/0.2.0/testng-xml-formatter-0.2.0.jar:/home/code/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/home/code/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/home/code/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/home/code/.m2/repository/io/cucumber/datatable/7.20.1/datatable-7.20.1.jar:/home/code/.m2/repository/io/cucumber/cucumber-plugin/7.20.1/cucumber-plugin-7.20.1.jar:/home/code/.m2/repository/io/cucumber/docstring/7.20.1/docstring-7.20.1.jar:/home/code/.m2/repository/io/cucumber/html-formatter/21.7.0/html-formatter-21.7.0.jar:/home/code/.m2/repository/io/cucumber/junit-xml-formatter/0.5.0/junit-xml-formatter-0.5.0.jar:/home/code/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/code/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/code/.m2/repository/io/cucumber/cucumber-junit/7.20.1/cucumber-junit-7.20.1.jar:/home/code/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/code/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/code/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/home/code/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/code/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar:/home/code/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/home/code/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.23.1/log4j-slf4j-impl-2.23.1.jar:/home/code/.m2/repository/io/vavr/vavr-match/0.10.5/vavr-match-0.10.5.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/code/Projetos/iot-leitor-temperatura-umidade/target/surefire/surefirebooter-20250120054331665_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/code/Projetos/iot-leitor-temperatura-umidade/target/surefire/surefirebooter-20250120060414626_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.13+11-LTS"/>
     <property name="user.name" value="code"/>
@@ -53,68 +53,68 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Leitura e publicação bem-sucedidas" classname="Leitura de temperatura e publicação via MQTT" time="2.557">
+  <testcase name="Leitura e publicação bem-sucedidas" classname="Leitura de temperatura e publicação via MQTT" time="2.683">
     <system-out><![CDATA[
 Cenário: Leitura e publicação bem-sucedidas                         # src/test/resources/features/leitor_temperatura.feature:7
-2025-01-20 05:43:35 [main] INFO  com.leitor.SensorWorker - Conectado ao broker MQTT
+2025-01-20 06:04:18 [main] INFO  com.leitor.SensorWorker - Conectado ao broker MQTT
 Conectado ao broker MQTT
   Dado que a porta serial esta disponivel                           # com.leitor.steps.StepDefinitions.que_a_porta_serial_esta_disponivel()
   E o broker MQTT está acessível                                    # com.leitor.steps.StepDefinitions.o_broker_mqtt_esta_acessivel()
-2025-01-20 05:43:35 [Thread-11] INFO  com.leitor.SensorWorker - Porta serial [null] aberta com sucesso.
+2025-01-20 06:04:18 [Thread-11] INFO  com.leitor.SensorWorker - Porta serial [null] aberta com sucesso.
 Porta serial [null] aberta com sucesso.
-2025-01-20 05:43:35 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: TEMP:25.5
+2025-01-20 06:04:19 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: TEMP:25.5
 UMID:60.0
 Dados recebidos na porta serial: TEMP:25.5
 UMID:60.0
-2025-01-20 05:43:35 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 25.5
+2025-01-20 06:04:19 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 25.5
 Publicado no tópico [sensores/temperatura]: 25.5
-2025-01-20 05:43:35 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/umidade]: 60.0
+2025-01-20 06:04:19 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/umidade]: 60.0
 Publicado no tópico [sensores/umidade]: 60.0
-2025-01-20 05:43:35 [main] INFO  com.leitor.SensorWorker - Porta serial [null] fechada.
+2025-01-20 06:04:19 [main] INFO  com.leitor.SensorWorker - Porta serial [null] fechada.
 Porta serial [null] fechada.
-2025-01-20 05:43:35 [main] INFO  com.leitor.SensorWorker - Conexão MQTT encerrada.
+2025-01-20 06:04:19 [main] INFO  com.leitor.SensorWorker - Conexão MQTT encerrada.
 Conexão MQTT encerrada.
   Quando o leitor de temperatura é executado                        # com.leitor.steps.StepDefinitions.o_leitor_de_temperatura_e_executado()
   Então os dados são lidos corretamente da porta serial             # com.leitor.steps.StepDefinitions.os_dados_sao_lidos_corretamente_da_porta_serial()
   E os dados de temperatura e umidade são publicados no broker MQTT # com.leitor.steps.StepDefinitions.os_dados_de_temperatura_e_umidade_sao_publicados_no_broker_mqtt()
 ]]></system-out>
   </testcase>
-  <testcase name="Falha ao abrir a porta serial" classname="Leitura de temperatura e publicação via MQTT" time="0.519">
+  <testcase name="Falha ao abrir a porta serial" classname="Leitura de temperatura e publicação via MQTT" time="0.525">
     <system-out><![CDATA[
 Cenário: Falha ao abrir a porta serial        # src/test/resources/features/leitor_temperatura.feature:14
-2025-01-20 05:43:36 [main] INFO  com.leitor.SensorWorker - Conectado ao broker MQTT
+2025-01-20 06:04:19 [main] INFO  com.leitor.SensorWorker - Conectado ao broker MQTT
 Conectado ao broker MQTT
   Dado que a porta serial não está disponível # com.leitor.steps.StepDefinitions.que_a_porta_serial_nao_esta_disponivel()
-2025-01-20 05:43:36 [Thread-17] WARN  com.leitor.SensorWorker - Não foi possível abrir a porta serial [/dev/pst/3'].
+2025-01-20 06:04:19 [Thread-17] WARN  com.leitor.SensorWorker - Não foi possível abrir a porta serial [/dev/pst/3'].
 Não foi possível abrir a porta serial [/dev/pst/3'].
-2025-01-20 05:43:36 [main] INFO  com.leitor.SensorWorker - Conexão MQTT encerrada.
+2025-01-20 06:04:19 [main] INFO  com.leitor.SensorWorker - Conexão MQTT encerrada.
 Conexão MQTT encerrada.
   Quando o leitor de temperatura é executado  # com.leitor.steps.StepDefinitions.o_leitor_de_temperatura_e_executado()
-2025-01-20 05:43:36 [main] WARN  com.leitor.SensorWorker - Não foi possível abrir a porta serial [/dev/pst/3'].
+2025-01-20 06:04:19 [main] WARN  com.leitor.SensorWorker - Não foi possível abrir a porta serial [/dev/pst/3'].
   Então uma mensagem de erro é registrada     # com.leitor.steps.StepDefinitions.uma_mensagem_de_erro_e_registrada()
   E a leitura não é realizada                 # com.leitor.steps.StepDefinitions.a_leitura_nao_e_realizada()
 ]]></system-out>
   </testcase>
-  <testcase name="Falha ao conectar ao broker MQTT" classname="Leitura de temperatura e publicação via MQTT" time="2.538">
+  <testcase name="Falha ao conectar ao broker MQTT" classname="Leitura de temperatura e publicação via MQTT" time="2.537">
     <system-out><![CDATA[
 Cenário: Falha ao conectar ao broker MQTT                 # src/test/resources/features/leitor_temperatura.feature:20
-2025-01-20 05:43:36 [main] INFO  com.leitor.SensorWorker - Conectado ao broker MQTT
+2025-01-20 06:04:19 [main] INFO  com.leitor.SensorWorker - Conectado ao broker MQTT
 Conectado ao broker MQTT
   Dado que a porta serial esta disponivel                 # com.leitor.steps.StepDefinitions.que_a_porta_serial_esta_disponivel()
   E o broker MQTT não está acessível                      # com.leitor.steps.StepDefinitions.o_broker_mqtt_nao_esta_acessivel()
-2025-01-20 05:43:36 [Thread-25] INFO  com.leitor.SensorWorker - Porta serial [null] aberta com sucesso.
+2025-01-20 06:04:19 [Thread-25] INFO  com.leitor.SensorWorker - Porta serial [null] aberta com sucesso.
 Porta serial [null] aberta com sucesso.
-2025-01-20 05:43:37 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: TEMP:25.5
+2025-01-20 06:04:20 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: TEMP:25.5
 UMID:60.0
 Dados recebidos na porta serial: TEMP:25.5
 UMID:60.0
-2025-01-20 05:43:37 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
+2025-01-20 06:04:20 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
 Cliente MQTT desconectado; tentando reconexão...
-2025-01-20 05:43:37 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
+2025-01-20 06:04:20 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
 Cliente MQTT desconectado; tentando reconexão...
-2025-01-20 05:43:38 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
+2025-01-20 06:04:21 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
 Cliente MQTT desconectado; tentando reconexão...
-2025-01-20 05:43:38 [main] ERROR com.leitor.SensorWorker - Erro ao publicar no MQTT: Client is not connected (32104)
+2025-01-20 06:04:21 [main] ERROR com.leitor.SensorWorker - Erro ao publicar no MQTT: Client is not connected (32104)
 java.lang.RuntimeException: Client is not connected (32104)
 	at com.leitor.SensorWorker.lambda$publicarNoMQTT$0(SensorWorker.java:194) ~[classes/:?]
 	at io.github.resilience4j.retry.Retry.lambda$decorateRunnable$6(Retry.java:331) ~[resilience4j-retry-1.7.0.jar:1.7.0]
@@ -179,13 +179,13 @@ Caused by: org.eclipse.paho.client.mqttv3.MqttException: Client is not connected
 	at com.leitor.SensorWorker.lambda$publicarNoMQTT$0(SensorWorker.java:192) ~[classes/:?]
 	... 57 more
 Erro ao publicar no MQTT: Client is not connected (32104)
-2025-01-20 05:43:38 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
+2025-01-20 06:04:21 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
 Cliente MQTT desconectado; tentando reconexão...
-2025-01-20 05:43:38 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
+2025-01-20 06:04:21 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
 Cliente MQTT desconectado; tentando reconexão...
-2025-01-20 05:43:39 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
+2025-01-20 06:04:22 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
 Cliente MQTT desconectado; tentando reconexão...
-2025-01-20 05:43:39 [main] ERROR com.leitor.SensorWorker - Erro ao publicar no MQTT: Client is not connected (32104)
+2025-01-20 06:04:22 [main] ERROR com.leitor.SensorWorker - Erro ao publicar no MQTT: Client is not connected (32104)
 java.lang.RuntimeException: Client is not connected (32104)
 	at com.leitor.SensorWorker.lambda$publicarNoMQTT$0(SensorWorker.java:194) ~[classes/:?]
 	at io.github.resilience4j.retry.Retry.lambda$decorateRunnable$6(Retry.java:331) ~[resilience4j-retry-1.7.0.jar:1.7.0]
@@ -250,67 +250,67 @@ Caused by: org.eclipse.paho.client.mqttv3.MqttException: Client is not connected
 	at com.leitor.SensorWorker.lambda$publicarNoMQTT$0(SensorWorker.java:192) ~[classes/:?]
 	... 57 more
 Erro ao publicar no MQTT: Client is not connected (32104)
-2025-01-20 05:43:39 [main] INFO  com.leitor.SensorWorker - Porta serial [null] fechada.
+2025-01-20 06:04:22 [main] INFO  com.leitor.SensorWorker - Porta serial [null] fechada.
 Porta serial [null] fechada.
   Quando o leitor de temperatura é executado              # com.leitor.steps.StepDefinitions.o_leitor_de_temperatura_e_executado()
-2025-01-20 05:43:39 [main] INFO  com.leitor.SensorWorker - Porta serial [null] aberta com sucesso.
+2025-01-20 06:04:22 [main] INFO  com.leitor.SensorWorker - Porta serial [null] aberta com sucesso.
   Então uma mensagem de erro de conexão MQTT é registrada # com.leitor.steps.StepDefinitions.uma_mensagem_de_erro_de_conexao_mqtt_e_registrada()
   E nenhuma publicação é realizada                        # com.leitor.steps.StepDefinitions.nenhuma_publicacao_e_realizada()
 ]]></system-out>
   </testcase>
-  <testcase name="Dados inválidos recebidos da porta serial" classname="Leitura de temperatura e publicação via MQTT" time="0.317">
+  <testcase name="Dados inválidos recebidos da porta serial" classname="Leitura de temperatura e publicação via MQTT" time="0.314">
     <system-out><![CDATA[
 Cenário: Dados inválidos recebidos da porta serial      # src/test/resources/features/leitor_temperatura.feature:27
-2025-01-20 05:43:39 [main] INFO  com.leitor.SensorWorker - Conectado ao broker MQTT
+2025-01-20 06:04:22 [main] INFO  com.leitor.SensorWorker - Conectado ao broker MQTT
 Conectado ao broker MQTT
   Dado que a porta serial esta disponivel               # com.leitor.steps.StepDefinitions.que_a_porta_serial_esta_disponivel()
   E o broker MQTT está acessível                        # com.leitor.steps.StepDefinitions.o_broker_mqtt_esta_acessivel()
-2025-01-20 05:43:39 [main] INFO  com.leitor.SensorWorker - Porta serial [null] aberta com sucesso.
+2025-01-20 06:04:22 [main] INFO  com.leitor.SensorWorker - Porta serial [null] aberta com sucesso.
 Porta serial [null] aberta com sucesso.
-2025-01-20 05:43:39 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: &amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;
+2025-01-20 06:04:22 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: &amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;
 Dados recebidos na porta serial: &amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;&amp#0;
-2025-01-20 05:43:39 [main] INFO  com.leitor.SensorWorker - Porta serial [null] fechada.
+2025-01-20 06:04:22 [main] INFO  com.leitor.SensorWorker - Porta serial [null] fechada.
 Porta serial [null] fechada.
-2025-01-20 05:43:39 [main] INFO  com.leitor.SensorWorker - Conexão MQTT encerrada.
+2025-01-20 06:04:22 [main] INFO  com.leitor.SensorWorker - Conexão MQTT encerrada.
 Conexão MQTT encerrada.
   Quando o leitor de temperatura recebe dados inválidos # com.leitor.steps.StepDefinitions.o_leitor_de_temperatura_recebe_dados_invalidos()
-2025-01-20 05:43:39 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: INVALID_DATA
-2025-01-20 05:43:39 [main] WARN  com.leitor.SensorWorker - Dados desconhecidos recebidos: INVALID_DATA
+2025-01-20 06:04:22 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: INVALID_DATA
+2025-01-20 06:04:22 [main] WARN  com.leitor.SensorWorker - Dados desconhecidos recebidos: INVALID_DATA
   Então uma mensagem de alerta é registrada             # com.leitor.steps.StepDefinitions.uma_mensagem_de_alerta_e_registrada()
   E nenhuma publicação é realizada                      # com.leitor.steps.StepDefinitions.nenhuma_publicacao_e_realizada()
 ]]></system-out>
   </testcase>
-  <testcase name="Interrupção durante a leitura" classname="Leitura de temperatura e publicação via MQTT" time="0.517">
+  <testcase name="Interrupção durante a leitura" classname="Leitura de temperatura e publicação via MQTT" time="0.51">
     <system-out><![CDATA[
 Cenário: Interrupção durante a leitura          # src/test/resources/features/leitor_temperatura.feature:34
-2025-01-20 05:43:39 [main] INFO  com.leitor.SensorWorker - Conectado ao broker MQTT
+2025-01-20 06:04:22 [main] INFO  com.leitor.SensorWorker - Conectado ao broker MQTT
 Conectado ao broker MQTT
   Dado que a porta serial esta disponivel       # com.leitor.steps.StepDefinitions.que_a_porta_serial_esta_disponivel()
   E o broker MQTT está acessível                # com.leitor.steps.StepDefinitions.o_broker_mqtt_esta_acessivel()
-2025-01-20 05:43:39 [Thread-50] INFO  com.leitor.SensorWorker - Porta serial [null] aberta com sucesso.
+2025-01-20 06:04:22 [Thread-50] INFO  com.leitor.SensorWorker - Porta serial [null] aberta com sucesso.
 Porta serial [null] aberta com sucesso.
   E o leitor de temperatura está em execução    # com.leitor.steps.StepDefinitions.o_leitor_de_temperatura_esta_em_execucao()
-2025-01-20 05:43:39 [main] INFO  com.leitor.SensorWorker - Porta serial [null] fechada.
+2025-01-20 06:04:22 [main] INFO  com.leitor.SensorWorker - Porta serial [null] fechada.
 Porta serial [null] fechada.
-2025-01-20 05:43:39 [main] INFO  com.leitor.SensorWorker - Conexão MQTT encerrada.
+2025-01-20 06:04:22 [main] INFO  com.leitor.SensorWorker - Conexão MQTT encerrada.
 Conexão MQTT encerrada.
   Quando o processo é interrompido              # com.leitor.steps.StepDefinitions.o_processo_e_interrompido()
   Então o leitor para a leitura da porta serial # com.leitor.steps.StepDefinitions.o_leitor_para_a_leitura_da_porta_serial()
   E nenhuma publicação é realizada              # com.leitor.steps.StepDefinitions.nenhuma_publicacao_e_realizada()
 ]]></system-out>
   </testcase>
-  <testcase name="Reconexão ao broker MQTT" classname="Leitura de temperatura e publicação via MQTT" time="0.313">
+  <testcase name="Reconexão ao broker MQTT" classname="Leitura de temperatura e publicação via MQTT" time="0.308">
     <system-out><![CDATA[
 Cenário: Reconexão ao broker MQTT                                                 # src/test/resources/features/leitor_temperatura.feature:42
-2025-01-20 05:43:40 [main] INFO  com.leitor.SensorWorker - Conectado ao broker MQTT
+2025-01-20 06:04:23 [main] INFO  com.leitor.SensorWorker - Conectado ao broker MQTT
 Conectado ao broker MQTT
   Dado que a porta serial esta disponivel                                         # com.leitor.steps.StepDefinitions.que_a_porta_serial_esta_disponivel()
   E o broker MQTT está temporariamente indisponível                               # com.leitor.steps.StepDefinitions.o_broker_mqtt_esta_temporariamente_indisponivel()
-2025-01-20 05:43:40 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
+2025-01-20 06:04:23 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
 Cliente MQTT desconectado; tentando reconexão...
-2025-01-20 05:43:40 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 25.5
+2025-01-20 06:04:23 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 25.5
 Publicado no tópico [sensores/temperatura]: 25.5
-2025-01-20 05:43:40 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/umidade]: 60.0
+2025-01-20 06:04:23 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/umidade]: 60.0
 Publicado no tópico [sensores/umidade]: 60.0
   Quando o broker MQTT volta a estar disponível                                   # com.leitor.steps.StepDefinitions.o_broker_mqtt_volta_a_estar_disponivel()
   Então os dados de temperatura e umidade são publicados novamente no broker MQTT # com.leitor.steps.StepDefinitions.os_dados_de_temperatura_e_umidade_sao_publicados_novamente_no_broker_mqtt()

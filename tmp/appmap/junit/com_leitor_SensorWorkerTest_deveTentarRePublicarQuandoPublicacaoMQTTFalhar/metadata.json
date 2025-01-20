@@ -21,7 +21,7 @@
   "git": {
     "repository": "git@github.com:caputomarcos/iot-leitor-temperatura-umidade.git",
     "branch": "main",
-    "commit": "62247eae3ca93dc4fb398efaccc628b5f906d4a5"
+    "commit": "3468237cc52b6f9360e900d0aad02801ab152145"
   },
   "source_location": "src/test/java/com/leitor/SensorWorkerTest.java:150",
   "frameworks": [

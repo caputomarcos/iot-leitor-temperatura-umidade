@@ -9,8 +9,8 @@
       "path": "src/test/java/com/leitor/SensorWorkerTest.java",
       "receiver": {
         "class": "com.leitor.SensorWorkerTest",
-        "object_id": 1079430578,
-        "value": "com.leitor.SensorWorkerTest@4056cdb2"
+        "object_id": 1595169036,
+        "value": "com.leitor.SensorWorkerTest@5f14590c"
       },
       "static": false,
       "thread_id": 1
@@ -24,14 +24,14 @@
       "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker",
-        "object_id": 1595169036,
-        "value": "com.leitor.SensorWorker@5f14590c"
+        "object_id": 1208205171,
+        "value": "com.leitor.SensorWorker@4803bf73"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0.00007279,
+      "elapsed": 0.0000517705,
       "event": "return",
       "id": 3,
       "parent_id": 2,
@@ -48,15 +48,15 @@
           "class": "com.fazecast.jSerialComm.SerialPortEvent",
           "kind": "req",
           "name": "event",
-          "object_id": 1174737513,
+          "object_id": 326311924,
           "value": "LISTENING_EVENT_DATA_AVAILABLE"
         }
       ],
       "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker$1",
-        "object_id": 108767749,
-        "value": "com.leitor.SensorWorker$1@67baa05"
+        "object_id": 484968522,
+        "value": "com.leitor.SensorWorker$1@1ce8084a"
       },
       "static": false,
       "thread_id": 1
@@ -72,35 +72,35 @@
           "class": "java.lang.String",
           "kind": "req",
           "name": "dados",
-          "object_id": 1532660177,
+          "object_id": 1641169735,
           "value": "INVALID_DATA"
         }
       ],
       "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker",
-        "object_id": 1595169036,
-        "value": "com.leitor.SensorWorker@5f14590c"
+        "object_id": 1208205171,
+        "value": "com.leitor.SensorWorker@4803bf73"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0000418655,
+      "elapsed": 0.0000303948,
       "event": "return",
       "id": 6,
       "parent_id": 5,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0000839285,
+      "elapsed": 0.0000538578,
       "event": "return",
       "id": 7,
       "parent_id": 4,
       "thread_id": 1
     },
     {
-      "elapsed": 0.00032398,
+      "elapsed": 0.0002237394,
       "event": "return",
       "id": 8,
       "parent_id": 1,
@@ -131,7 +131,7 @@
     "git": {
       "repository": "git@github.com:caputomarcos/iot-leitor-temperatura-umidade.git",
       "branch": "main",
-      "commit": "62247eae3ca93dc4fb398efaccc628b5f906d4a5"
+      "commit": "3468237cc52b6f9360e900d0aad02801ab152145"
     },
     "source_location": "src/test/java/com/leitor/SensorWorkerTest.java:70",
     "frameworks": [

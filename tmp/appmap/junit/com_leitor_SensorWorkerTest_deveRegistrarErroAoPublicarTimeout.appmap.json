@@ -9,8 +9,8 @@
       "path": "src/test/java/com/leitor/SensorWorkerTest.java",
       "receiver": {
         "class": "com.leitor.SensorWorkerTest",
-        "object_id": 1003983940,
-        "value": "com.leitor.SensorWorkerTest@3bd79444"
+        "object_id": 313142474,
+        "value": "com.leitor.SensorWorkerTest@12aa2cca"
       },
       "static": false,
       "thread_id": 1
@@ -26,35 +26,35 @@
           "class": "java.lang.String",
           "kind": "req",
           "name": "topico",
-          "object_id": 1870367457,
+          "object_id": 1781111709,
           "value": "sensores/temperatura"
         },
         {
           "class": "java.lang.String",
           "kind": "req",
           "name": "mensagem",
-          "object_id": 1559037239,
+          "object_id": 468780345,
           "value": "25.5"
         }
       ],
       "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker",
-        "object_id": 1263257405,
-        "value": "com.leitor.SensorWorker@4b4bc73d"
+        "object_id": 753129818,
+        "value": "com.leitor.SensorWorker@2ce3d95a"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0.10027453,
+      "elapsed": 0.100320935,
       "event": "return",
       "id": 3,
       "parent_id": 2,
       "thread_id": 1
     },
     {
-      "elapsed": 0.10033291,
+      "elapsed": 0.10038931,
       "event": "return",
       "id": 4,
       "parent_id": 1,
@@ -85,7 +85,7 @@
     "git": {
       "repository": "git@github.com:caputomarcos/iot-leitor-temperatura-umidade.git",
       "branch": "main",
-      "commit": "62247eae3ca93dc4fb398efaccc628b5f906d4a5"
+      "commit": "3468237cc52b6f9360e900d0aad02801ab152145"
     },
     "source_location": "src/test/java/com/leitor/SensorWorkerTest.java:211",
     "frameworks": [
