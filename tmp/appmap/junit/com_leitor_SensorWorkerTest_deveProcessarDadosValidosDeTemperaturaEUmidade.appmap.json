@@ -6,11 +6,11 @@
       "id": 1,
       "lineno": 164,
       "method_id": "deveProcessarDadosValidosDeTemperaturaEUmidade",
-      "path": "com/leitor/SensorWorkerTest.java",
+      "path": "src/test/java/com/leitor/SensorWorkerTest.java",
       "receiver": {
         "class": "com.leitor.SensorWorkerTest",
-        "object_id": 1551501036,
-        "value": "com.leitor.SensorWorkerTest@5c7a06ec"
+        "object_id": 526655415,
+        "value": "com.leitor.SensorWorkerTest@1f641fb7"
       },
       "static": false,
       "thread_id": 1
@@ -26,15 +26,15 @@
           "class": "java.lang.String",
           "kind": "req",
           "name": "dados",
-          "object_id": 401132274,
+          "object_id": 681375707,
           "value": "TEMP:22.5\nUMID:55.3\n"
         }
       ],
-      "path": "com/leitor/SensorWorker.java",
+      "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker",
-        "object_id": 273479239,
-        "value": "com.leitor.SensorWorker@104cf647"
+        "object_id": 2085764061,
+        "value": "com.leitor.SensorWorker@7c523bdd"
       },
       "static": false,
       "thread_id": 1
@@ -50,28 +50,28 @@
           "class": "java.lang.String",
           "kind": "req",
           "name": "topico",
-          "object_id": 1001702066,
+          "object_id": 1870367457,
           "value": "sensores/temperatura"
         },
         {
           "class": "java.lang.String",
           "kind": "req",
           "name": "mensagem",
-          "object_id": 1582967668,
+          "object_id": 2078726843,
           "value": "22.5"
         }
       ],
-      "path": "com/leitor/SensorWorker.java",
+      "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker",
-        "object_id": 273479239,
-        "value": "com.leitor.SensorWorker@104cf647"
+        "object_id": 2085764061,
+        "value": "com.leitor.SensorWorker@7c523bdd"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0000722635,
+      "elapsed": 0.0000667768,
       "event": "return",
       "id": 4,
       "parent_id": 3,
@@ -88,42 +88,42 @@
           "class": "java.lang.String",
           "kind": "req",
           "name": "topico",
-          "object_id": 2077969769,
+          "object_id": 1211317010,
           "value": "sensores/umidade"
         },
         {
           "class": "java.lang.String",
           "kind": "req",
           "name": "mensagem",
-          "object_id": 450728160,
+          "object_id": 1845548855,
           "value": "55.3"
         }
       ],
-      "path": "com/leitor/SensorWorker.java",
+      "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker",
-        "object_id": 273479239,
-        "value": "com.leitor.SensorWorker@104cf647"
+        "object_id": 2085764061,
+        "value": "com.leitor.SensorWorker@7c523bdd"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0000733184,
+      "elapsed": 0.000070461,
       "event": "return",
       "id": 6,
       "parent_id": 5,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0025337066,
+      "elapsed": 0.0023532684,
       "event": "return",
       "id": 7,
       "parent_id": 2,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0026256558,
+      "elapsed": 0.0024489902,
       "event": "return",
       "id": 8,
       "parent_id": 1,
@@ -151,7 +151,12 @@
       "defined_class": "com.leitor.SensorWorkerTest",
       "method_id": "deveProcessarDadosValidosDeTemperaturaEUmidade"
     },
-    "source_location": "com/leitor/SensorWorkerTest.java:164",
+    "git": {
+      "repository": "git@github.com:caputomarcos/iot-leitor-temperatura-umidade.git",
+      "branch": "main",
+      "commit": "62247eae3ca93dc4fb398efaccc628b5f906d4a5"
+    },
+    "source_location": "src/test/java/com/leitor/SensorWorkerTest.java:164",
     "frameworks": [
       {
         "name": "junit",
@@ -171,7 +176,7 @@
                   "name": "deveProcessarDadosValidosDeTemperaturaEUmidade",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorkerTest.java:164"
+                  "location": "src/test/java/com/leitor/SensorWorkerTest.java:164"
                 }
               ],
               "name": "SensorWorkerTest",
@@ -183,13 +188,13 @@
                   "name": "processarDados",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorker.java:161"
+                  "location": "src/main/java/com/leitor/SensorWorker.java:161"
                 },
                 {
                   "name": "publicarNoMQTT",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorker.java:190"
+                  "location": "src/main/java/com/leitor/SensorWorker.java:190"
                 }
               ],
               "name": "SensorWorker",

@@ -9,7 +9,7 @@
                 "name": "deveRegistrarAvisoParaDadosInvalidos",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorkerTest.java:70"
+                "location": "src/test/java/com/leitor/SensorWorkerTest.java:70"
               }
             ],
             "name": "SensorWorkerTest",
@@ -21,13 +21,13 @@
                 "name": "iniciarLeitura",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorker.java:101"
+                "location": "src/main/java/com/leitor/SensorWorker.java:101"
               },
               {
                 "name": "processarDados",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorker.java:161"
+                "location": "src/main/java/com/leitor/SensorWorker.java:161"
               }
             ],
             "name": "SensorWorker",
@@ -39,7 +39,7 @@
                 "name": "serialEvent",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorker.java:115"
+                "location": "src/main/java/com/leitor/SensorWorker.java:115"
               }
             ],
             "name": "SensorWorker$1",

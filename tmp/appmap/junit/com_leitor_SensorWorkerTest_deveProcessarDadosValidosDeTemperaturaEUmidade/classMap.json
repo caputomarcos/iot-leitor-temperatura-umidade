@@ -9,7 +9,7 @@
                 "name": "deveProcessarDadosValidosDeTemperaturaEUmidade",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorkerTest.java:164"
+                "location": "src/test/java/com/leitor/SensorWorkerTest.java:164"
               }
             ],
             "name": "SensorWorkerTest",
@@ -21,13 +21,13 @@
                 "name": "processarDados",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorker.java:161"
+                "location": "src/main/java/com/leitor/SensorWorker.java:161"
               },
               {
                 "name": "publicarNoMQTT",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorker.java:190"
+                "location": "src/main/java/com/leitor/SensorWorker.java:190"
               }
             ],
             "name": "SensorWorker",

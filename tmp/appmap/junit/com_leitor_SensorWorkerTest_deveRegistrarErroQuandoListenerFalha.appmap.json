@@ -6,17 +6,17 @@
       "id": 1,
       "lineno": 228,
       "method_id": "deveRegistrarErroQuandoListenerFalha",
-      "path": "com/leitor/SensorWorkerTest.java",
+      "path": "src/test/java/com/leitor/SensorWorkerTest.java",
       "receiver": {
         "class": "com.leitor.SensorWorkerTest",
-        "object_id": 145866719,
-        "value": "com.leitor.SensorWorkerTest@8b1bfdf"
+        "object_id": 600825762,
+        "value": "com.leitor.SensorWorkerTest@23cfdfa2"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0057102744,
+      "elapsed": 0.0071570515,
       "event": "return",
       "id": 2,
       "parent_id": 1,
@@ -44,7 +44,12 @@
       "defined_class": "com.leitor.SensorWorkerTest",
       "method_id": "deveRegistrarErroQuandoListenerFalha"
     },
-    "source_location": "com/leitor/SensorWorkerTest.java:228",
+    "git": {
+      "repository": "git@github.com:caputomarcos/iot-leitor-temperatura-umidade.git",
+      "branch": "main",
+      "commit": "62247eae3ca93dc4fb398efaccc628b5f906d4a5"
+    },
+    "source_location": "src/test/java/com/leitor/SensorWorkerTest.java:228",
     "frameworks": [
       {
         "name": "junit",
@@ -64,7 +69,7 @@
                   "name": "deveRegistrarErroQuandoListenerFalha",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorkerTest.java:228"
+                  "location": "src/test/java/com/leitor/SensorWorkerTest.java:228"
                 }
               ],
               "name": "SensorWorkerTest",

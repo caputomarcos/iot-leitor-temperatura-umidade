@@ -9,7 +9,7 @@
                 "name": "devePublicarNoMQTTAposPerdaDeConexao",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorkerTest.java:116"
+                "location": "src/test/java/com/leitor/SensorWorkerTest.java:116"
               }
             ],
             "name": "SensorWorkerTest",
@@ -21,7 +21,7 @@
                 "name": "publicarNoMQTT",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorker.java:190"
+                "location": "src/main/java/com/leitor/SensorWorker.java:190"
               }
             ],
             "name": "SensorWorker",

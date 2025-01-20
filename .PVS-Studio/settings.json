@@ -37,6 +37,6 @@
   "traceSpoonLogFileName": "spoon.log",
   "check-license": false,
   "logging": "OFF",
-  "project": "/home/code/Projetos/leitor-temperatura",
+  "project": "/home/code/Projetos/iot-leitor-temperatura-umidade",
   "type": "sources"
 }

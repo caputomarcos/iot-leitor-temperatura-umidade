@@ -9,7 +9,7 @@
                 "name": "deveRegistrarErroAoAbrirPortaSerial",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorkerTest.java:128"
+                "location": "src/test/java/com/leitor/SensorWorkerTest.java:128"
               }
             ],
             "name": "SensorWorkerTest",
@@ -21,7 +21,7 @@
                 "name": "iniciarLeitura",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorker.java:101"
+                "location": "src/main/java/com/leitor/SensorWorker.java:101"
               }
             ],
             "name": "SensorWorker",

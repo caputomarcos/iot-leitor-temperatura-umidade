@@ -9,7 +9,7 @@
                 "name": "deveRegistrarErroAoPublicarTimeout",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorkerTest.java:211"
+                "location": "src/test/java/com/leitor/SensorWorkerTest.java:211"
               }
             ],
             "name": "SensorWorkerTest",
@@ -21,7 +21,7 @@
                 "name": "publicarNoMQTT",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorker.java:190"
+                "location": "src/main/java/com/leitor/SensorWorker.java:190"
               }
             ],
             "name": "SensorWorker",

@@ -6,11 +6,11 @@
       "id": 1,
       "lineno": 200,
       "method_id": "deveRegistrarAvisoAoFecharPortaSerial",
-      "path": "com/leitor/SensorWorkerTest.java",
+      "path": "src/test/java/com/leitor/SensorWorkerTest.java",
       "receiver": {
         "class": "com.leitor.SensorWorkerTest",
-        "object_id": 645621647,
-        "value": "com.leitor.SensorWorkerTest@267b678f"
+        "object_id": 1074791118,
+        "value": "com.leitor.SensorWorkerTest@401002ce"
       },
       "static": false,
       "thread_id": 1
@@ -21,24 +21,24 @@
       "id": 2,
       "lineno": 136,
       "method_id": "pararLeitura",
-      "path": "com/leitor/SensorWorker.java",
+      "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker",
-        "object_id": 484968522,
-        "value": "com.leitor.SensorWorker@1ce8084a"
+        "object_id": 2064777114,
+        "value": "com.leitor.SensorWorker@7b11ff9a"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0000868319,
+      "elapsed": 0.0000765405,
       "event": "return",
       "id": 3,
       "parent_id": 2,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0001262929,
+      "elapsed": 0.0001167861,
       "event": "return",
       "id": 4,
       "parent_id": 1,
@@ -66,7 +66,12 @@
       "defined_class": "com.leitor.SensorWorkerTest",
       "method_id": "deveRegistrarAvisoAoFecharPortaSerial"
     },
-    "source_location": "com/leitor/SensorWorkerTest.java:200",
+    "git": {
+      "repository": "git@github.com:caputomarcos/iot-leitor-temperatura-umidade.git",
+      "branch": "main",
+      "commit": "62247eae3ca93dc4fb398efaccc628b5f906d4a5"
+    },
+    "source_location": "src/test/java/com/leitor/SensorWorkerTest.java:200",
     "frameworks": [
       {
         "name": "junit",
@@ -86,7 +91,7 @@
                   "name": "deveRegistrarAvisoAoFecharPortaSerial",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorkerTest.java:200"
+                  "location": "src/test/java/com/leitor/SensorWorkerTest.java:200"
                 }
               ],
               "name": "SensorWorkerTest",
@@ -98,7 +103,7 @@
                   "name": "pararLeitura",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorker.java:136"
+                  "location": "src/main/java/com/leitor/SensorWorker.java:136"
                 }
               ],
               "name": "SensorWorker",

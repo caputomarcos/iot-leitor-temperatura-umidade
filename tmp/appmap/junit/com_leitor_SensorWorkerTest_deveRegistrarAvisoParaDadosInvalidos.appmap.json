@@ -6,11 +6,11 @@
       "id": 1,
       "lineno": 70,
       "method_id": "deveRegistrarAvisoParaDadosInvalidos",
-      "path": "com/leitor/SensorWorkerTest.java",
+      "path": "src/test/java/com/leitor/SensorWorkerTest.java",
       "receiver": {
         "class": "com.leitor.SensorWorkerTest",
-        "object_id": 30912386,
-        "value": "com.leitor.SensorWorkerTest@1d7af82"
+        "object_id": 1079430578,
+        "value": "com.leitor.SensorWorkerTest@4056cdb2"
       },
       "static": false,
       "thread_id": 1
@@ -21,17 +21,17 @@
       "id": 2,
       "lineno": 101,
       "method_id": "iniciarLeitura",
-      "path": "com/leitor/SensorWorker.java",
+      "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker",
-        "object_id": 1191220798,
-        "value": "com.leitor.SensorWorker@4700963e"
+        "object_id": 1595169036,
+        "value": "com.leitor.SensorWorker@5f14590c"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0000541439,
+      "elapsed": 0.00007279,
       "event": "return",
       "id": 3,
       "parent_id": 2,
@@ -48,15 +48,15 @@
           "class": "com.fazecast.jSerialComm.SerialPortEvent",
           "kind": "req",
           "name": "event",
-          "object_id": 356324579,
+          "object_id": 1174737513,
           "value": "LISTENING_EVENT_DATA_AVAILABLE"
         }
       ],
-      "path": "com/leitor/SensorWorker.java",
+      "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker$1",
-        "object_id": 991393180,
-        "value": "com.leitor.SensorWorker$1@3b17759c"
+        "object_id": 108767749,
+        "value": "com.leitor.SensorWorker$1@67baa05"
       },
       "static": false,
       "thread_id": 1
@@ -72,35 +72,35 @@
           "class": "java.lang.String",
           "kind": "req",
           "name": "dados",
-          "object_id": 298711368,
+          "object_id": 1532660177,
           "value": "INVALID_DATA"
         }
       ],
-      "path": "com/leitor/SensorWorker.java",
+      "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker",
-        "object_id": 1191220798,
-        "value": "com.leitor.SensorWorker@4700963e"
+        "object_id": 1595169036,
+        "value": "com.leitor.SensorWorker@5f14590c"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0000562859,
+      "elapsed": 0.0000418655,
       "event": "return",
       "id": 6,
       "parent_id": 5,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0000859662,
+      "elapsed": 0.0000839285,
       "event": "return",
       "id": 7,
       "parent_id": 4,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0002547237,
+      "elapsed": 0.00032398,
       "event": "return",
       "id": 8,
       "parent_id": 1,
@@ -128,7 +128,12 @@
       "defined_class": "com.leitor.SensorWorkerTest",
       "method_id": "deveRegistrarAvisoParaDadosInvalidos"
     },
-    "source_location": "com/leitor/SensorWorkerTest.java:70",
+    "git": {
+      "repository": "git@github.com:caputomarcos/iot-leitor-temperatura-umidade.git",
+      "branch": "main",
+      "commit": "62247eae3ca93dc4fb398efaccc628b5f906d4a5"
+    },
+    "source_location": "src/test/java/com/leitor/SensorWorkerTest.java:70",
     "frameworks": [
       {
         "name": "junit",
@@ -148,7 +153,7 @@
                   "name": "deveRegistrarAvisoParaDadosInvalidos",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorkerTest.java:70"
+                  "location": "src/test/java/com/leitor/SensorWorkerTest.java:70"
                 }
               ],
               "name": "SensorWorkerTest",
@@ -160,13 +165,13 @@
                   "name": "iniciarLeitura",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorker.java:101"
+                  "location": "src/main/java/com/leitor/SensorWorker.java:101"
                 },
                 {
                   "name": "processarDados",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorker.java:161"
+                  "location": "src/main/java/com/leitor/SensorWorker.java:161"
                 }
               ],
               "name": "SensorWorker",
@@ -178,7 +183,7 @@
                   "name": "serialEvent",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorker.java:115"
+                  "location": "src/main/java/com/leitor/SensorWorker.java:115"
                 }
               ],
               "name": "SensorWorker$1",

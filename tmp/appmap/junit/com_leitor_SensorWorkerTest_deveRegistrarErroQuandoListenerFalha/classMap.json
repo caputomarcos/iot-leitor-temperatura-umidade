@@ -9,7 +9,7 @@
                 "name": "deveRegistrarErroQuandoListenerFalha",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorkerTest.java:228"
+                "location": "src/test/java/com/leitor/SensorWorkerTest.java:228"
               }
             ],
             "name": "SensorWorkerTest",

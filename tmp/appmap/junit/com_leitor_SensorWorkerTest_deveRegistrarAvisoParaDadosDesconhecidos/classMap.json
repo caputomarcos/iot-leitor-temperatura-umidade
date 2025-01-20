@@ -9,7 +9,7 @@
                 "name": "deveRegistrarAvisoParaDadosDesconhecidos",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorkerTest.java:182"
+                "location": "src/test/java/com/leitor/SensorWorkerTest.java:182"
               }
             ],
             "name": "SensorWorkerTest",
@@ -21,7 +21,7 @@
                 "name": "processarDados",
                 "type": "function",
                 "static": false,
-                "location": "com/leitor/SensorWorker.java:161"
+                "location": "src/main/java/com/leitor/SensorWorker.java:161"
               }
             ],
             "name": "SensorWorker",

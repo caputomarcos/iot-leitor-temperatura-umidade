@@ -6,11 +6,11 @@
       "id": 1,
       "lineno": 150,
       "method_id": "deveTentarRePublicarQuandoPublicacaoMQTTFalhar",
-      "path": "com/leitor/SensorWorkerTest.java",
+      "path": "src/test/java/com/leitor/SensorWorkerTest.java",
       "receiver": {
         "class": "com.leitor.SensorWorkerTest",
-        "object_id": 270071554,
-        "value": "com.leitor.SensorWorkerTest@1018f702"
+        "object_id": 414040586,
+        "value": "com.leitor.SensorWorkerTest@18adc20a"
       },
       "static": false,
       "thread_id": 1
@@ -26,35 +26,35 @@
           "class": "java.lang.String",
           "kind": "req",
           "name": "topico",
-          "object_id": 1001702066,
+          "object_id": 1870367457,
           "value": "sensores/temperatura"
         },
         {
           "class": "java.lang.String",
           "kind": "req",
           "name": "mensagem",
-          "object_id": 1995366577,
+          "object_id": 1918150282,
           "value": "30.0"
         }
       ],
-      "path": "com/leitor/SensorWorker.java",
+      "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker",
-        "object_id": 555334025,
-        "value": "com.leitor.SensorWorker@2119b989"
+        "object_id": 77567832,
+        "value": "com.leitor.SensorWorker@49f9758"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0.050105613,
+      "elapsed": 0.050097786,
       "event": "return",
       "id": 3,
       "parent_id": 2,
       "thread_id": 1
     },
     {
-      "elapsed": 0.05016592,
+      "elapsed": 0.050151777,
       "event": "return",
       "id": 4,
       "parent_id": 1,
@@ -82,7 +82,12 @@
       "defined_class": "com.leitor.SensorWorkerTest",
       "method_id": "deveTentarRePublicarQuandoPublicacaoMQTTFalhar"
     },
-    "source_location": "com/leitor/SensorWorkerTest.java:150",
+    "git": {
+      "repository": "git@github.com:caputomarcos/iot-leitor-temperatura-umidade.git",
+      "branch": "main",
+      "commit": "62247eae3ca93dc4fb398efaccc628b5f906d4a5"
+    },
+    "source_location": "src/test/java/com/leitor/SensorWorkerTest.java:150",
     "frameworks": [
       {
         "name": "junit",
@@ -102,7 +107,7 @@
                   "name": "deveTentarRePublicarQuandoPublicacaoMQTTFalhar",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorkerTest.java:150"
+                  "location": "src/test/java/com/leitor/SensorWorkerTest.java:150"
                 }
               ],
               "name": "SensorWorkerTest",
@@ -114,7 +119,7 @@
                   "name": "publicarNoMQTT",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorker.java:190"
+                  "location": "src/main/java/com/leitor/SensorWorker.java:190"
                 }
               ],
               "name": "SensorWorker",

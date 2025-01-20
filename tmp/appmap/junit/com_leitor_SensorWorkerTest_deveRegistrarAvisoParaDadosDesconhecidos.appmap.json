@@ -6,11 +6,11 @@
       "id": 1,
       "lineno": 182,
       "method_id": "deveRegistrarAvisoParaDadosDesconhecidos",
-      "path": "com/leitor/SensorWorkerTest.java",
+      "path": "src/test/java/com/leitor/SensorWorkerTest.java",
       "receiver": {
         "class": "com.leitor.SensorWorkerTest",
-        "object_id": 631436338,
-        "value": "com.leitor.SensorWorkerTest@25a2f432"
+        "object_id": 573495946,
+        "value": "com.leitor.SensorWorkerTest@222eda8a"
       },
       "static": false,
       "thread_id": 1
@@ -26,28 +26,28 @@
           "class": "java.lang.String",
           "kind": "req",
           "name": "dados",
-          "object_id": 116901088,
+          "object_id": 443806673,
           "value": "UNKNOWN:123"
         }
       ],
-      "path": "com/leitor/SensorWorker.java",
+      "path": "src/main/java/com/leitor/SensorWorker.java",
       "receiver": {
         "class": "com.leitor.SensorWorker",
-        "object_id": 635569126,
-        "value": "com.leitor.SensorWorker@25e203e6"
+        "object_id": 628963688,
+        "value": "com.leitor.SensorWorker@257d3968"
       },
       "static": false,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0000347104,
+      "elapsed": 0.0000359904,
       "event": "return",
       "id": 3,
       "parent_id": 2,
       "thread_id": 1
     },
     {
-      "elapsed": 0.0001041891,
+      "elapsed": 0.000105737,
       "event": "return",
       "id": 4,
       "parent_id": 1,
@@ -75,7 +75,12 @@
       "defined_class": "com.leitor.SensorWorkerTest",
       "method_id": "deveRegistrarAvisoParaDadosDesconhecidos"
     },
-    "source_location": "com/leitor/SensorWorkerTest.java:182",
+    "git": {
+      "repository": "git@github.com:caputomarcos/iot-leitor-temperatura-umidade.git",
+      "branch": "main",
+      "commit": "62247eae3ca93dc4fb398efaccc628b5f906d4a5"
+    },
+    "source_location": "src/test/java/com/leitor/SensorWorkerTest.java:182",
     "frameworks": [
       {
         "name": "junit",
@@ -95,7 +100,7 @@
                   "name": "deveRegistrarAvisoParaDadosDesconhecidos",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorkerTest.java:182"
+                  "location": "src/test/java/com/leitor/SensorWorkerTest.java:182"
                 }
               ],
               "name": "SensorWorkerTest",
@@ -107,7 +112,7 @@
                   "name": "processarDados",
                   "type": "function",
                   "static": false,
-                  "location": "com/leitor/SensorWorker.java:161"
+                  "location": "src/main/java/com/leitor/SensorWorker.java:161"
                 }
               ],
               "name": "SensorWorker",

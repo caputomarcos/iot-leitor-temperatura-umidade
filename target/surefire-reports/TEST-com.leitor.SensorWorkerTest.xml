@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.leitor.SensorWorkerTest" time="1.664" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="com.leitor.SensorWorkerTest" time="1.683" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/home/code/.sdkman/candidates/java/17.0.13-zulu/lib"/>
-    <property name="sun.java.command" value="/home/code/Projetos/iot-leitor-temperatura-umidade/target/surefire/surefirebooter-20250120052920552_3.jar /home/code/Projetos/iot-leitor-temperatura-umidade/target/surefire 2025-01-20T05-29-20_490-jvmRun1 surefire-20250120052920552_1tmp surefire_0-20250120052920552_2tmp"/>
+    <property name="sun.java.command" value="/home/code/Projetos/iot-leitor-temperatura-umidade/target/surefire/surefirebooter-20250120054331665_3.jar /home/code/Projetos/iot-leitor-temperatura-umidade/target/surefire 2025-01-20T05-43-31_615-jvmRun1 surefire-20250120054331665_1tmp surefire_0-20250120054331665_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/code/Projetos/iot-leitor-temperatura-umidade/target/test-classes:/home/code/Projetos/iot-leitor-temperatura-umidade/target/classes:/home/code/.m2/repository/com/fazecast/jSerialComm/2.11.0/jSerialComm-2.11.0.jar:/home/code/.m2/repository/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.jar:/home/code/.m2/repository/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.jar:/home/code/.m2/repository/io/vavr/vavr/0.10.5/vavr-0.10.5.jar:/home/code/.m2/repository/org/eclipse/paho/org.eclipse.paho.client.mqttv3/1.2.5/org.eclipse.paho.client.mqttv3-1.2.5.jar:/home/code/.m2/repository/org/mockito/mockito-core/5.15.2/mockito-core-5.15.2.jar:/home/code/.m2/repository/net/bytebuddy/byte-buddy/1.15.11/byte-buddy-1.15.11.jar:/home/code/.m2/repository/net/bytebuddy/byte-buddy-agent/1.15.11/byte-buddy-agent-1.15.11.jar:/home/code/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/code/.m2/repository/io/cucumber/cucumber-java/7.20.1/cucumber-java-7.20.1.jar:/home/code/.m2/repository/io/cucumber/cucumber-core/7.20.1/cucumber-core-7.20.1.jar:/home/code/.m2/repository/io/cucumber/cucumber-gherkin/7.20.1/cucumber-gherkin-7.20.1.jar:/home/code/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.20.1/cucumber-gherkin-messages-7.20.1.jar:/home/code/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/code/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/home/code/.m2/repository/io/cucumber/testng-xml-formatter/0.2.0/testng-xml-formatter-0.2.0.jar:/home/code/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/home/code/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/home/code/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/home/code/.m2/repository/io/cucumber/datatable/7.20.1/datatable-7.20.1.jar:/home/code/.m2/repository/io/cucumber/cucumber-plugin/7.20.1/cucumber-plugin-7.20.1.jar:/home/code/.m2/repository/io/cucumber/docstring/7.20.1/docstring-7.20.1.jar:/home/code/.m2/repository/io/cucumber/html-formatter/21.7.0/html-formatter-21.7.0.jar:/home/code/.m2/repository/io/cucumber/junit-xml-formatter/0.5.0/junit-xml-formatter-0.5.0.jar:/home/code/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/code/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/code/.m2/repository/io/cucumber/cucumber-junit/7.20.1/cucumber-junit-7.20.1.jar:/home/code/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/home/code/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/code/.m2/repository/log4j/log4j/1.2.14/log4j-1.2.14.jar:/home/code/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/home/code/.m2/repository/org/apache/logging/log4j/log4j-core/2.23.1/log4j-core-2.23.1.jar:/home/code/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/home/code/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.23.1/log4j-slf4j-impl-2.23.1.jar:/home/code/.m2/repository/io/vavr/vavr-match/0.10.5/vavr-match-0.10.5.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/code/Projetos/iot-leitor-temperatura-umidade/target/surefire/surefirebooter-20250120052920552_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/code/Projetos/iot-leitor-temperatura-umidade/target/surefire/surefirebooter-20250120054331665_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.13+11-LTS"/>
     <property name="user.name" value="code"/>
@@ -53,65 +53,65 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="deveProcessarDadosValidosDeTemperaturaEUmidade" classname="com.leitor.SensorWorkerTest" time="0.071">
-    <system-out><![CDATA[2025-01-20 05:29:30 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: TEMP:22.5
+  <testcase name="deveProcessarDadosValidosDeTemperaturaEUmidade" classname="com.leitor.SensorWorkerTest" time="0.065">
+    <system-out><![CDATA[2025-01-20 05:43:42 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: TEMP:22.5
 UMID:55.3
 
 Dados recebidos na porta serial: TEMP:22.5
 UMID:55.3
 
-2025-01-20 05:29:30 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 22.5
+2025-01-20 05:43:42 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 22.5
 Publicado no tópico [sensores/temperatura]: 22.5
-2025-01-20 05:29:30 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/umidade]: 55.3
+2025-01-20 05:43:42 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/umidade]: 55.3
 Publicado no tópico [sensores/umidade]: 55.3
 ]]></system-out>
   </testcase>
-  <testcase name="deveRegistrarAvisoParaDadosInvalidos" classname="com.leitor.SensorWorkerTest" time="0.005">
-    <system-out><![CDATA[2025-01-20 05:29:30 [main] INFO  com.leitor.SensorWorker - Porta serial [null] aberta com sucesso.
-2025-01-20 05:29:30 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: INVALID_DATA
-2025-01-20 05:29:30 [main] WARN  com.leitor.SensorWorker - Dados desconhecidos recebidos: INVALID_DATA
+  <testcase name="deveRegistrarAvisoParaDadosInvalidos" classname="com.leitor.SensorWorkerTest" time="0.009">
+    <system-out><![CDATA[2025-01-20 05:43:42 [main] INFO  com.leitor.SensorWorker - Porta serial [null] aberta com sucesso.
+2025-01-20 05:43:42 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: INVALID_DATA
+2025-01-20 05:43:42 [main] WARN  com.leitor.SensorWorker - Dados desconhecidos recebidos: INVALID_DATA
 ]]></system-out>
   </testcase>
-  <testcase name="devePublicarNoMQTTAposReconexao" classname="com.leitor.SensorWorkerTest" time="0.004">
-    <system-out><![CDATA[2025-01-20 05:29:30 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
+  <testcase name="devePublicarNoMQTTAposReconexao" classname="com.leitor.SensorWorkerTest" time="0.005">
+    <system-out><![CDATA[2025-01-20 05:43:42 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
 Cliente MQTT desconectado; tentando reconexão...
-2025-01-20 05:29:30 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 25.5
+2025-01-20 05:43:42 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 25.5
 Publicado no tópico [sensores/temperatura]: 25.5
 ]]></system-out>
   </testcase>
-  <testcase name="deveRegistrarAvisoParaDadosDesconhecidos" classname="com.leitor.SensorWorkerTest" time="0.003">
-    <system-out><![CDATA[2025-01-20 05:29:30 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: UNKNOWN:123
+  <testcase name="deveRegistrarAvisoParaDadosDesconhecidos" classname="com.leitor.SensorWorkerTest" time="0.004">
+    <system-out><![CDATA[2025-01-20 05:43:42 [main] INFO  com.leitor.SensorWorker - Dados recebidos na porta serial: UNKNOWN:123
 Dados recebidos na porta serial: UNKNOWN:123
-2025-01-20 05:29:30 [main] WARN  com.leitor.SensorWorker - Dados desconhecidos recebidos: UNKNOWN:123
+2025-01-20 05:43:42 [main] WARN  com.leitor.SensorWorker - Dados desconhecidos recebidos: UNKNOWN:123
 Dados desconhecidos recebidos: UNKNOWN:123
 ]]></system-out>
   </testcase>
-  <testcase name="deveRegistrarErroQuandoListenerFalha" classname="com.leitor.SensorWorkerTest" time="0.06"/>
-  <testcase name="deveRegistrarAvisoAoFecharPortaSerial" classname="com.leitor.SensorWorkerTest" time="0.003">
-    <system-out><![CDATA[2025-01-20 05:29:30 [main] INFO  com.leitor.SensorWorker - Porta serial [null] fechada.
+  <testcase name="deveRegistrarErroQuandoListenerFalha" classname="com.leitor.SensorWorkerTest" time="0.075"/>
+  <testcase name="deveRegistrarAvisoAoFecharPortaSerial" classname="com.leitor.SensorWorkerTest" time="0.004">
+    <system-out><![CDATA[2025-01-20 05:43:42 [main] INFO  com.leitor.SensorWorker - Porta serial [null] fechada.
 Porta serial [null] fechada.
-2025-01-20 05:29:30 [main] INFO  com.leitor.SensorWorker - Conexão MQTT encerrada.
+2025-01-20 05:43:42 [main] INFO  com.leitor.SensorWorker - Conexão MQTT encerrada.
 Conexão MQTT encerrada.
 ]]></system-out>
   </testcase>
   <testcase name="deveRegistrarErroAoPublicarTimeout" classname="com.leitor.SensorWorkerTest" time="1.007">
-    <system-out><![CDATA[2025-01-20 05:29:31 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 25.5
+    <system-out><![CDATA[2025-01-20 05:43:43 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 25.5
 Publicado no tópico [sensores/temperatura]: 25.5
 ]]></system-out>
   </testcase>
-  <testcase name="deveRegistrarErroAoAbrirPortaSerial" classname="com.leitor.SensorWorkerTest" time="0.003">
-    <system-out><![CDATA[2025-01-20 05:29:31 [main] WARN  com.leitor.SensorWorker - Não foi possível abrir a porta serial [COM99].
+  <testcase name="deveRegistrarErroAoAbrirPortaSerial" classname="com.leitor.SensorWorkerTest" time="0.005">
+    <system-out><![CDATA[2025-01-20 05:43:43 [main] WARN  com.leitor.SensorWorker - Não foi possível abrir a porta serial [COM99].
 ]]></system-out>
   </testcase>
   <testcase name="deveTentarRePublicarQuandoPublicacaoMQTTFalhar" classname="com.leitor.SensorWorkerTest" time="0.504">
-    <system-out><![CDATA[2025-01-20 05:29:31 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 30.0
+    <system-out><![CDATA[2025-01-20 05:43:44 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 30.0
 Publicado no tópico [sensores/temperatura]: 30.0
 ]]></system-out>
   </testcase>
-  <testcase name="devePublicarNoMQTTAposPerdaDeConexao" classname="com.leitor.SensorWorkerTest" time="0.002">
-    <system-out><![CDATA[2025-01-20 05:29:32 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
+  <testcase name="devePublicarNoMQTTAposPerdaDeConexao" classname="com.leitor.SensorWorkerTest" time="0.004">
+    <system-out><![CDATA[2025-01-20 05:43:44 [main] WARN  com.leitor.SensorWorker - Cliente MQTT desconectado; tentando reconexão...
 Cliente MQTT desconectado; tentando reconexão...
-2025-01-20 05:29:32 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 25.5
+2025-01-20 05:43:44 [main] INFO  com.leitor.SensorWorker - Publicado no tópico [sensores/temperatura]: 25.5
 Publicado no tópico [sensores/temperatura]: 25.5
 ]]></system-out>
   </testcase>
