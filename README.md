@@ -1,7 +1,4 @@
 
-tty0tty - linux null modem emulator v1.2
-
-The module is tested in kernel 3.10.2 (debian)
 
 When loaded, create 8 ttys interconnected:
 
