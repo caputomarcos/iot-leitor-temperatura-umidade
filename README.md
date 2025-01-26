@@ -113,7 +113,7 @@ A solução será validada através de:
 
 ## Mais Informações
 
-- Documentação da biblioteca [Eclipse Paho](https://www.eclipse.org/paho/).
+- Documentação da biblioteca [Eclipse Paho](https://projects.eclipse.org/projects/iot.paho).
 - Configuração do broker MQTT no Docker Compose.
 - Exemplos de testes de integração no repositório GitHub do projeto.
 
